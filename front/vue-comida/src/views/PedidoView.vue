@@ -269,7 +269,7 @@ const confirmarPedido = async () => {
   const dateObj = new Date(deliveryDate.value)
   const fechaISO = dateObj.toISOString()
   try {
-    await axios.post('http://localhost:8080/api/pedido', {
+    await axios.post('http://192.168.0.55:8095/api/pedido', {
       combo: selectedMenu.value.title,
       direccion: address.value,
       fecha: fechaISO || ''
