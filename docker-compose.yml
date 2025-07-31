@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  front:
+    build: ./front/vue-comida
+    ports:
+      - "8094:80"
+    depends_on:
+      - back
+  back:
+    build: ./back
+    ports:
+      - "8095:8080"
