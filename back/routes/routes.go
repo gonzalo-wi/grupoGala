@@ -11,7 +11,7 @@ func SetupRouter() *gin.Engine {
 	r := gin.Default()
 
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:5173", "http://192.168.0.55:8094"},
+		AllowOrigins:     []string{"http://localhost:5173", "http://192.168.0.55:8094", "http://beneficios.grupogala.com.ar:8094"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Accept"},
 		AllowCredentials: true,
