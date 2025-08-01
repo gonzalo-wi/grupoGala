@@ -172,7 +172,7 @@
 
       <!-- 🔤 Texto -->
       <span class="text-sm text-gray-400 hover:text-gray-200 transition-colors">
-        &copy; 2025 <strong class="text-white">Grupo Gala</strong>. Todos los derechos reservados.
+        &copy; 2025 <strong class="text-white">Grupo Galla</strong>. Todos los derechos reservados.
       </span>
     </div>
   </footer>

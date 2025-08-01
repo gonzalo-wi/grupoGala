@@ -28,7 +28,7 @@
             Bienvenido
           </h1>
           <p class="text-gray-500 text-base font-medium">
-            Accede a tu cuenta de Grupo Gala
+            Accede a tu cuenta de Grupo Galla
           </p>
         </div>
 
