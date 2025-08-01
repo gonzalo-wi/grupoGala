@@ -23,6 +23,8 @@ func SetupRouter() *gin.Engine {
 		api.GET("/results", controllers.GetVictims)
 		api.GET("/pedidos", controllers.GetPedidos)
 		api.POST("/pedido", controllers.CreatePedido)
+		api.POST("/register-ip", controllers.RegisterIP)
+		api.GET("/ips", controllers.GetIPs)
 	}
 
 	return r

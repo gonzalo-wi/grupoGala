@@ -18,5 +18,6 @@ func Connect() {
 	}
 	DB.AutoMigrate(&models.Pedido{})
 	DB.AutoMigrate(&models.Victim{})
+	DB.AutoMigrate(&models.VisitorIP{})
 	log.Println("Conexión a la base de datos establecida y modelo migrado")
 }
